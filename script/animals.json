@@ -1,146 +1,146 @@
 [
   {
-    "animal_name": "Bengal Tiger",
-    "animal_instruction": "Carnivorous mammal",
+    "name": "Bengal Tiger",
+    "short_description": "Carnivorous mammal",
     "habitat": "Tropical and subtropical",
     "countries": ["India", "Bangladesh", "Nepal"],
     "continent": "Asia",
     "classification": "Mammal",
-    "short_description": "The Bengal Tiger is a majestic carnivore, recognized for its distinctive orange coat with black stripes. It is an apex predator found in the Indian subcontinent."
+    "long_description": "The Bengal Tiger is a majestic carnivore, recognized for its distinctive orange coat with black stripes. It is an apex predator found in the Indian subcontinent."
   },
   {
-    "animal_name": "Bald Eagle",
-    "animal_instruction": "Birds of prey",
+    "name": "Bald Eagle",
+    "short_description": "Birds of prey",
     "habitat": "Various, including forests",
     "countries": ["United States", "Canada"],
     "continent": "North America",
     "classification": "Bird",
-    "short_description": "The Bald Eagle, a symbol of freedom, is a large bird of prey. It inhabits diverse landscapes and is known for its striking appearance with a white head and yellow beak."
+    "long_description": "The Bald Eagle, a symbol of freedom, is a large bird of prey. It inhabits diverse landscapes and is known for its striking appearance with a white head and yellow beak."
   },
   {
-    "animal_name": "Giant Panda",
-    "animal_instruction": "Herbivorous mammal",
+    "name": "Giant Panda",
+    "short_description": "Herbivorous mammal",
     "habitat": "Temperate bamboo forests",
     "countries": ["China"],
     "continent": "Asia",
     "classification": "Mammal",
-    "short_description": "The Giant Panda is an iconic black-and-white bear known for its bamboo diet. Endangered, it resides in the mountainous regions of China and symbolizes wildlife conservation."
+    "long_description": "The Giant Panda is an iconic black-and-white bear known for its bamboo diet. Endangered, it resides in the mountainous regions of China and symbolizes wildlife conservation."
   },
   {
-    "animal_name": "Green Sea Turtle",
-    "animal_instruction": "Herbivorous reptile",
+    "name": "Green Sea Turtle",
+    "short_description": "Herbivorous reptile",
     "habitat": "Tropical and subtropical",
     "countries": ["Global, various coastlines"],
     "continent": "Global",
     "classification": "Reptile",
-    "short_description": "The Green Sea Turtle is a marine reptile found in tropical oceans. Known for its green color and gentle nature, it is threatened by habitat loss and plastic pollution."
+    "long_description": "The Green Sea Turtle is a marine reptile found in tropical oceans. Known for its green color and gentle nature, it is threatened by habitat loss and plastic pollution."
   },
   {
-    "animal_name": "African Elephant",
-    "animal_instruction": "Herbivorous mammal",
+    "name": "African Elephant",
+    "short_description": "Herbivorous mammal",
     "habitat": "Savannas, forests",
     "countries": ["Various African countries"],
     "continent": "Africa",
     "classification": "Mammal",
-    "short_description": "The African Elephant is the largest land mammal, with distinctive large ears and tusks. It plays a crucial role in maintaining ecosystems across the African continent."
+    "long_description": "The African Elephant is the largest land mammal, with distinctive large ears and tusks. It plays a crucial role in maintaining ecosystems across the African continent."
   },
   {
-    "animal_name": "Great White Shark",
-    "animal_instruction": "Carnivorous fish",
+    "name": "Great White Shark",
+    "short_description": "Carnivorous fish",
     "habitat": "Coastal and open ocean",
     "countries": ["Global, in temperate and tropical seas"],
     "continent": "Global",
     "classification": "Fish",
-    "short_description": "The Great White Shark is a powerful apex predator in the ocean. With its fearsome reputation, it roams the world's seas, playing a vital role in marine ecosystems."
+    "long_description": "The Great White Shark is a powerful apex predator in the ocean. With its fearsome reputation, it roams the world's seas, playing a vital role in marine ecosystems."
   },
   {
-    "animal_name": "Koala",
-    "animal_instruction": "Herbivorous marsupial",
+    "name": "Koala",
+    "short_description": "Herbivorous marsupial",
     "habitat": "Eucalyptus forests",
     "countries": ["Australia"],
     "continent": "Australia",
     "classification": "Mammal",
-    "short_description": "The Koala is an arboreal marsupial known for its cuddly appearance. It exclusively feeds on eucalyptus leaves and is native to the eucalyptus forests of Australia."
+    "long_description": "The Koala is an arboreal marsupial known for its cuddly appearance. It exclusively feeds on eucalyptus leaves and is native to the eucalyptus forests of Australia."
   },
   {
-    "animal_name": "Amazon River Dolphin",
-    "animal_instruction": "Carnivorous mammal",
+    "name": "Amazon River Dolphin",
+    "short_description": "Carnivorous mammal",
     "habitat": "Amazon River basin",
     "countries": ["Brazil", "Peru", "Colombia"],
     "continent": "South America",
     "classification": "Mammal",
-    "short_description": "The Amazon River Dolphin, also known as the pink river dolphin, is a unique freshwater mammal found in the Amazon River. It is known for its pink coloration and social behavior."
+    "long_description": "The Amazon River Dolphin, also known as the pink river dolphin, is a unique freshwater mammal found in the Amazon River. It is known for its pink coloration and social behavior."
   },
   {
-    "animal_name": "Snow Leopard",
-    "animal_instruction": "Carnivorous mammal",
+    "name": "Snow Leopard",
+    "short_description": "Carnivorous mammal",
     "habitat": "Mountain ranges",
     "countries": ["Central and South Asia"],
     "continent": "Asia",
     "classification": "Mammal",
-    "short_description": "The Snow Leopard is a solitary and elusive big cat adapted to high-altitude mountain environments. Its thick fur helps it survive the cold, harsh conditions."
+    "long_description": "The Snow Leopard is a solitary and elusive big cat adapted to high-altitude mountain environments. Its thick fur helps it survive the cold, harsh conditions."
   },
   {
-    "animal_name": "Poison Dart Frog",
-    "animal_instruction": "Insectivorous amphibian",
+    "name": "Poison Dart Frog",
+    "short_description": "Insectivorous amphibian",
     "habitat": "Rainforests",
     "countries": ["Central and South America"],
     "continent": "South America",
     "classification": "Amphibian",
-    "short_description": "The Poison Dart Frog, vibrant in color, is found in Central and South American rainforests. Some species of these small frogs secrete toxic compounds through their skin."
+    "long_description": "The Poison Dart Frog, vibrant in color, is found in Central and South American rainforests. Some species of these small frogs secrete toxic compounds through their skin."
   },
   {
-    "animal_name": "Red Kangaroo",
-    "animal_instruction": "Herbivorous marsupial",
+    "name": "Red Kangaroo",
+    "short_description": "Herbivorous marsupial",
     "habitat": "Grasslands and deserts",
     "countries": ["Australia"],
     "continent": "Australia",
     "classification": "Mammal",
-    "short_description": "The Red Kangaroo is the largest marsupial and is known for its powerful hind legs. It inhabits the arid regions of Australia, utilizing its strong tail for balance."
+    "long_description": "The Red Kangaroo is the largest marsupial and is known for its powerful hind legs. It inhabits the arid regions of Australia, utilizing its strong tail for balance."
   },
   {
-    "animal_name": "Orangutan",
-    "animal_instruction": "Herbivorous primate",
+    "name": "Orangutan",
+    "short_description": "Herbivorous primate",
     "habitat": "Tropical rainforests",
     "countries": ["Indonesia", "Malaysia"],
     "continent": "Asia",
     "classification": "Mammal",
-    "short_description": "The Orangutan, an arboreal ape, is found in the rainforests of Borneo and Sumatra. Known for their intelligence, they face threats due to habitat loss and illegal hunting."
+    "long_description": "The Orangutan, an arboreal ape, is found in the rainforests of Borneo and Sumatra. Known for their intelligence, they face threats due to habitat loss and illegal hunting."
   },
   {
-    "animal_name": "Arctic Fox",
-    "animal_instruction": "Carnivorous mammal",
+    "name": "Arctic Fox",
+    "short_description": "Carnivorous mammal",
     "habitat": "Arctic tundra",
     "countries": ["Arctic regions"],
     "continent": "Arctic",
     "classification": "Mammal",
-    "short_description": "The Arctic Fox is adapted to cold climates, with a thick fur coat that changes color with the seasons. It inhabits the Arctic tundra and survives in harsh winter conditions."
+    "long_description": "The Arctic Fox is adapted to cold climates, with a thick fur coat that changes color with the seasons. It inhabits the Arctic tundra and survives in harsh winter conditions."
   },
   {
-    "animal_name": "Giraffe",
-    "animal_instruction": "Herbivorous mammal",
+    "name": "Giraffe",
+    "short_description": "Herbivorous mammal",
     "habitat": "Savannas and grasslands",
     "countries": ["Africa"],
     "continent": "Africa",
     "classification": "Mammal",
-    "short_description": "The Giraffe is the tallest land animal, known for its long neck and distinctive spotted coat. It roams the savannas of Africa, browsing on leaves from tall trees."
+    "long_description": "The Giraffe is the tallest land animal, known for its long neck and distinctive spotted coat. It roams the savannas of Africa, browsing on leaves from tall trees."
   },
   {
-    "animal_name": "Polar Bear",
-    "animal_instruction": "Carnivorous mammal",
+    "name": "Polar Bear",
+    "short_description": "Carnivorous mammal",
     "habitat": "Arctic sea ice",
     "countries": ["Arctic regions"],
     "continent": "Arctic",
     "classification": "Mammal",
-    "short_description": "The Polar Bear is superbly adapted to its Arctic environment, with a thick layer of blubber and a white coat. It relies on sea ice to hunt seals and survive in extreme cold."
+    "long_description": "The Polar Bear is superbly adapted to its Arctic environment, with a thick layer of blubber and a white coat. It relies on sea ice to hunt seals and survive in extreme cold."
   },
   {
-    "animal_name": "Hummingbird",
-    "animal_instruction": "Nectar-feeding bird",
+    "name": "Hummingbird",
+    "short_description": "Nectar-feeding bird",
     "habitat": "Various, including forests and gardens",
     "countries": ["North, Central, and South America"],
     "continent": "Americas",
     "classification": "Bird",
-    "short_description": "The Hummingbird, known for its rapid wing beats and vibrant plumage, is found in various habitats across the Americas. It feeds on nectar from flowers and plays a vital role in pollination."
+    "long_description": "The Hummingbird, known for its rapid wing beats and vibrant plumage, is found in various habitats across the Americas. It feeds on nectar from flowers and plays a vital role in pollination."
   }
 ]

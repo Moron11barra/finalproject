@@ -8,9 +8,9 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg py-3 navbar-background">
+  <nav class="navbar navbar-expand-lg py-3 navbar-background shadow-sm">
     <div class="container">
-      <a class="navbar-brand" href="">
+      <a class="navbar-brand shadow-sm" href="">
         <img src="images/logo_3.png" width="200px" class="align-middle me-1 " alt="My Website">
       </a>
   
@@ -43,7 +43,53 @@
     </div>
   </header>
 
-  <footer class="navbar-background">
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col pt-5">
+          <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" id="classification-button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Classification
+            </button>
+            <ul class="dropdown-menu">
+              <li><button class="dropdown-item classification-dropdown" value="Mammal" type="button">Mammal</button></li>
+              <li><button class="dropdown-item classification-dropdown" value="Fish" type="button">Fish</button></li>
+              <li><button class="dropdown-item classification-dropdown" value="Amphibian" type="button">Amphibian</button></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><button class="dropdown-item classification-dropdown" value="none" type="button">Clear Filter</button></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" id="continent-button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Continent
+            </button>
+            <ul class="dropdown-menu">
+              <li><button class="dropdown-item continent-dropdown" value="Global" type="button">Global</button></li>
+              <li><button class="dropdown-item continent-dropdown" value="Americas" type="button">Americas</button></li>
+              <li><button class="dropdown-item continent-dropdown" value="North America" type="button">North America</button></li>
+              <li><button class="dropdown-item continent-dropdown" value="South America" type="button">South America</button></li>
+              <li><button class="dropdown-item continent-dropdown" value="Australia" type="button">Australia</button></li>
+              <li><button class="dropdown-item continent-dropdown" value="Asia" type="button">Asia</button></li>
+              <li><button class="dropdown-item continent-dropdown" value="Africa" type="button">Africa</button></li>
+              <li><button class="dropdown-item continent-dropdown" value="Arctic" type="button">Arctic</button></li>
+              <li><button class="dropdown-item continent-dropdown" value="Arctic" type="button">Arctic</button></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><button class="dropdown-item continent-dropdown" value="none" type="button">Clear Filter</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col pt-4">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="animals">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="navbar-background shadow-sm">
     <div class="container">
       <div class="row">
         <div class="col pt-2">
@@ -55,8 +101,8 @@
       </div>
     </div>
   </footer>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="script/animals.js"></script>
 </body>
 </html>
