@@ -8,10 +8,10 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg py-3 navbar-background shadow-sm">
+  <nav class="navbar navbar-expand-lg py-3 bg-light">
     <div class="container">
-      <a class="navbar-brand shadow-sm" href="">
-        <img src="images/logo_3.png" width="200px" class="align-middle me-1 " alt="My Website">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/zoo-logo-text.png" height="60px" class="align-middle me-1 " alt="My Website">
       </a>
   
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar"
@@ -32,19 +32,8 @@
       </div>
     </div>
   </nav>
-
-  <header>
-    <div class="bg-image container-fluid bg-images" style="background-image: url('images/mountain.jpg');">
-      <div class="row bg-dark" style="--bs-bg-opacity: .7;">
-        <div class="col">
-          <img class="img-fluid mx-auto d-block" src="images/logo.png" alt="logo">
-        </div>
-      </div>
-    </div>
-  </header>
-
   <main>
-    <div class="container">
+    <div class="container mb-5">
       <div class="row">
         <div class="col pt-5">
           <div class="btn-group">
@@ -89,14 +78,34 @@
     </div>
   </main>
 
-  <footer class="navbar-background shadow-sm">
-    <div class="container">
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item active"><a class="page-link" href="animals.html">2</a></li>
+      <li class="page-item"><a class="page-link" href="places.html">3</a></li>
+      <li class="page-item"><a class="page-link" href="about.html">4</a></li>
+      <li class="page-item"><a class="page-link" href="contact.html">5</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <footer class="bg-dark-subtle shadow-sm">
+    <div class="container-fluid">
       <div class="row">
         <div class="col pt-2">
           <a class="navbar-brand text-center" href="">
-            <img src="images/logo_3.png" width="220px" class="align-middle mx-auto d-block" alt="My Website">
+            <img src="images/small-logo.png" width="100px" class="align-middle mx-auto d-block" alt="My Website">
           </a>
-          <p class="text-center">&copy 2023 | Group 2 - CS 220</p>
+          <p class="text-center">&copy 2023 Ensign Zoo | Group 1 - CS 220</p>
         </div>
       </div>
     </div>
