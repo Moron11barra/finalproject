@@ -21,7 +21,7 @@
   },
   {
     "name": "Giant Panda",
-    "image_path": "",
+    "image_path": "GiantPanda.jpg",
     "short_description": "Herbivorous mammal",
     "habitat": "Temperate bamboo forests",
     "countries": ["China"],
@@ -31,7 +31,7 @@
   },
   {
     "name": "Green Sea Turtle",
-    "image_path": "",
+    "image_path": "GreenSeaTurtle.jpg",
     "short_description": "Herbivorous reptile",
     "habitat": "Tropical and subtropical",
     "countries": ["Global, various coastlines"],
@@ -41,7 +41,7 @@
   },
   {
     "name": "African Elephant",
-    "image_path": "",
+    "image_path": "AfricanElephant.jpg",
     "short_description": "Herbivorous mammal",
     "habitat": "Savannas, forests",
     "countries": ["Various African countries"],
@@ -51,7 +51,7 @@
   },
   {
     "name": "Great White Shark",
-    "image_path": "",
+    "image_path": "GreatWhiteShark.jpg",
     "short_description": "Carnivorous fish",
     "habitat": "Coastal and open ocean",
     "countries": ["Global, in temperate and tropical seas"],
@@ -61,7 +61,7 @@
   },
   {
     "name": "Koala",
-    "image_path": "",
+    "image_path": "Koala.jpg",
     "short_description": "Herbivorous marsupial",
     "habitat": "Eucalyptus forests",
     "countries": ["Australia"],
@@ -71,7 +71,7 @@
   },
   {
     "name": "Amazon River Dolphin",
-    "image_path": "",
+    "image_path": "AmazonRiverDolphin.jpg",
     "short_description": "Carnivorous mammal",
     "habitat": "Amazon River basin",
     "countries": ["Brazil", "Peru", "Colombia"],
@@ -81,7 +81,7 @@
   },
   {
     "name": "Snow Leopard",
-    "image_path": "",
+    "image_path": "SnowLeopard.jpg",
     "short_description": "Carnivorous mammal",
     "habitat": "Mountain ranges",
     "countries": ["Central and South Asia"],
@@ -91,7 +91,7 @@
   },
   {
     "name": "Poison Dart Frog",
-    "image_path": "",
+    "image_path": "PoisonDartFrog.jpg",
     "short_description": "Insectivorous amphibian",
     "habitat": "Rainforests",
     "countries": ["Central and South America"],
@@ -101,7 +101,7 @@
   },
   {
     "name": "Red Kangaroo",
-    "image_path": "",
+    "image_path": "RedKangoroo.jpg",
     "short_description": "Herbivorous marsupial",
     "habitat": "Grasslands and deserts",
     "countries": ["Australia"],
@@ -111,7 +111,7 @@
   },
   {
     "name": "Orangutan",
-    "image_path": "",
+    "image_path": "Orangutan.jpg",
     "short_description": "Herbivorous primate",
     "habitat": "Tropical rainforests",
     "countries": ["Indonesia", "Malaysia"],
@@ -121,7 +121,7 @@
   },
   {
     "name": "Arctic Fox",
-    "image_path": "",
+    "image_path": "ArticFox.jpg",
     "short_description": "Carnivorous mammal",
     "habitat": "Arctic tundra",
     "countries": ["Arctic regions"],
@@ -131,7 +131,7 @@
   },
   {
     "name": "Giraffe",
-    "image_path": "",
+    "image_path": "Giraffe.jpg",
     "short_description": "Herbivorous mammal",
     "habitat": "Savannas and grasslands",
     "countries": ["Africa"],
@@ -141,7 +141,7 @@
   },
   {
     "name": "Polar Bear",
-    "image_path": "",
+    "image_path": "PolarBear.jpg",
     "short_description": "Carnivorous mammal",
     "habitat": "Arctic sea ice",
     "countries": ["Arctic regions"],
@@ -151,7 +151,7 @@
   },
   {
     "name": "Hummingbird",
-    "image_path": "",
+    "image_path": "HummingBird.jpg",
     "short_description": "Nectar-feeding bird",
     "habitat": "Various, including forests and gardens",
     "countries": ["North, Central, and South America"],
