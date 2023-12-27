@@ -24,7 +24,6 @@ const classificationListButtons = [...classificationDropdown].map(dropdownToggle
       classificationButton.classList.remove('btn-primary');
       classificationButton.classList.add('btn-secondary');
     }
-    
   })
 })
 
@@ -98,7 +97,7 @@ function displayAnimals(animals) {
 
     // Create the image element with class "card-img-top"
     let imgElement = document.createElement("img");
-    imgElement.src = "images/tiger.jpg";
+    imgElement.src = `images\\${animal.image_path}`;
     imgElement.className = "card-img-top";
     imgElement.alt = "...";
 

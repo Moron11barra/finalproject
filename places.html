@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ensign Zoo | Places</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    /* Add this CSS to your existing style.css file or create a new one */
+  
+    /* Style for the Places section */
+    #places {
+      background-color: #f8f9fa;
+      padding: 50px 0;
+    }
+  
+    /* Style for each place */
+    .row.mb-4 {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+  
+    .row.mb-4 img {
+      border-radius: 10px 0 0 10px;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  
+    .row.mb-4 h3 {
+      color: #343a40;
+    }
+  
+    .row.mb-4 p {
+      color: #6c757d;
+    }
+  
+    /* Hover effect for each place */
+    .row.mb-4:hover {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+  
+    /* Additional styling for the header */
+    header {
+      position: relative;
+    }
+  
+    header .bg-image {
+      position: relative;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      text-align: center;
+    }
+  
+    header h1 {
+      font-size: 3em;
+    }
+  
+    /* Additional styling for the footer */
+    footer {
+      padding: 20px 0;
+      color: #ffffff;
+      text-align: center;
+      background-color: #343a40;
+    }
+  
+    footer p {
+      margin: 0;
+    }
+  
+    /* Responsive adjustments */
+    @media (max-width: 767px) {
+      .row.mb-4 {
+        flex-direction: column;
+      }
+  
+      .row.mb-4 img {
+        border-radius: 10px 10px 0 0;
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg py-3 bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/zoo-logo-text.png" height="60px" class="align-middle me-1 " alt="My Website">
+      </a>
+  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar"
+        aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <div lc-helper="shortcode" class="ms-auto">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0 navbar-nav">
+            <li class="nav-item"><a href="index.html" class="nav-link fs-4">Home</a></li>
+            <li class="nav-item"><a href="animals.html" class="nav-link fs-4">Animals</a></li>
+            <li class="nav-item"><a href="places.html" class="nav-link fs-4">Places</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link fs-4">About</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link fs-4">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <section id="places" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Explore Amazing Places</h2>
+
+      <!-- Place 1 -->
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <img src="images/Restaurant.jpg" alt="Place 1" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+          <h3>Restaurant</h3>
+          <p>Welcome to the Ensign Zoo Restaurant, where you can savor a delightful blend of flavors surrounded by the sounds of nature. Our restaurant offers a diverse menu with a view, allowing you to enjoy delicious meals while overlooking some of the zoo's most captivating exhibits. From fresh salads to family-friendly favorites, our culinary experience complements your day of exploring wildlife.</p>
+
+        </div>
+      </div>
+
+      <!-- Place 2 -->
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <img src="images/GrassLand.jpg" alt="Place 2" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+          <h3>Our GrassLand Area</h3>
+          <p>Step into the vast and open Grassland Area at Ensign Zoo, where the landscape mirrors the sweeping beauty of natural savannahs. Encounter majestic zebras, graceful giraffes, and swift antelopes as they roam freely in an environment designed to mimic their native habitats. This immersive exhibit provides a glimpse into the wonders of the grasslands and the incredible animals that call it home.</p>
+
+        </div>
+      </div>
+
+      <!-- Place 3 -->
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <img src="images/Aquarium.jpg" alt="Place 3" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+          <h3>Aquarium</h3>
+          <p>Dive into the mesmerizing world beneath the waves at Ensign Zoo's Aquarium Oasis. Wander through tunnels surrounded by schools of colorful fish, marvel at the grace of gliding rays, and be awestruck by the predatory prowess of sharks. Our aquarium offers an educational and visually stunning experience, highlighting the diversity and importance of marine life.</p>
+
+        </div>
+      </div>
+
+      <!-- Place 4 -->
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <img src="images/NocturnalHouse.jpg" alt="Place 4" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+          <h3>Nocturnal Houses To Stay</h3>
+          <p>As the sun sets, explore the mysterious Nocturnal Homes at Ensign Zoo. Enter dimly lit environments that replicate the nighttime habitats of fascinating creatures. Encounter elusive owls, agile bats, and other nocturnal wonders that come to life in the quiet hours of the night. This unique exhibit allows visitors to witness the beauty of the animal kingdom after dark.</p>
+
+        </div>
+      </div>
+
+      <!-- Place 5 -->
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <img src="images/ConservationCenter.jpg" alt="Place 5" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+          <h3>Conservation Center</h3>
+          <p>At the heart of Ensign Zoo's commitment to wildlife preservation lies the Conservation Center. Immerse yourself in the stories of endangered species and the efforts being made to protect them. Discover interactive displays, educational programs, and real-world initiatives that showcase how Ensign Zoo is contributing to global conservation. Join us in our mission to create a sustainable future for the planet's most vulnerable inhabitants.</p>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="animals.html">2</a></li>
+      <li class="page-item active"><a class="page-link" href="places.html">3</a></li>
+      <li class="page-item"><a class="page-link" href="about.html">4</a></li>
+      <li class="page-item"><a class="page-link" href="contact.html">5</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  
+  
+  
+  <footer class="bg-dark-subtle shadow-sm py-4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <a class="navbar-brand text-center" href="">
+            <img src="images/small-logo.png" width="100px" class="align-middle mx-auto d-block" alt="My Website">
+          </a>
+          <p class="text-center">&copy <span id="currentYear"></span> Ensign Zoo | Group 1 - CS 220</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col social text-center ">
+          <a class="social-icon" target="_blank" href="https://www.facebook.com"><img class="icon" src="https://cdn.glitch.com/afcce994-9fbc-4db6-87d7-9d15ca1d4e4f%2Ffacebook.png?v=1626498176485" alt="facebook" ></a>
+          <a class="social-icon" target="_blank" href="https://www.instagram.com"><img class="icon" src="https://cdn.glitch.com/afcce994-9fbc-4db6-87d7-9d15ca1d4e4f%2Finstagram.png?v=1626498174895" alt="instagram" ></a>
+          <a class="social-icon" target="_blank" href="https://github.com"><img class="icon" src="https://cdn.glitch.com/afcce994-9fbc-4db6-87d7-9d15ca1d4e4f%2Fgithub.png?v=1626498178126" alt="github"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

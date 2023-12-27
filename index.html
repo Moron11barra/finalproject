@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Ensign Zoo | Home</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg py-3 navbar-background">
+
+  <nav class="navbar navbar-expand-lg py-3 bg-light">
     <div class="container">
-      <a class="navbar-brand" href="">
-        <img src="images/logo_3.png" width="200px" class="align-middle me-1 " alt="My Website">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/zoo-logo-text.png" height="60px" class="align-middle me-1 " alt="My Website">
       </a>
   
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar"
@@ -33,115 +34,187 @@
     </div>
   </nav>
 
-  <header>
-    <div class="bg-image container-fluid bg-images" style="background-image: url('images/mountain.jpg');">
-      <div class="row bg-dark" style="--bs-bg-opacity: .7;">
+
+  
+  <main class="mb-5">
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active carousel-item-start">
+          <img class="bd-placeholder-img object-fit-cover" height="100%" width="100%" src="images/carrusel2.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" alt="">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Upcoming Events</h1>
+              <p class="opacity-75">Join the Fun – Events for Every Explorer</p>
+              <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                View Event Calendar
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-item-next carousel-item-start">
+          <img class="bd-placeholder-img object-fit-cover" height="100%" width="100%" src="images/carrusel3.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Discover the Wildlife</h1>
+              <p>Embark on a Journey Through Nature.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Explore Exhibits</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="bd-placeholder-img object-fit-cover" height="100%" width="100%" src="images/carrusel1.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" alt="">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Support Conservation</h1>
+              <p>Contribute to a Greener Future</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Donate Now</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Event Calendar</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>There are no events in the next few days</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container marketing">
+  
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="images/head1.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="">
+          <h2 class="fw-normal">Featured Exhibits</h2>
+          <p>Explore captivating exhibits showcasing the diversity of the animal kingdom. From exotic birds to majestic big cats, each visit is a journey into nature.</p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="images/head2.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="">
+          <h2 class="fw-normal">Upcoming Events</h2>
+          <p>Discover thrilling events for families and animal enthusiasts. Mark your calendar for an unforgettable adventure!</p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="images/head3.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="">
+          <h2 class="fw-normal">Protecting Wildlife</h2>
+          <p>Join us in wildlife conservation. Learn about initiatives, breeding programs, and how your visit helps protect endangered species and their habitats.</p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+  
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Visit Us</span></h2>
+          <p class="lead">Welcome to Ensign Zoo, a sanctuary of biodiversity and a hub of conservation efforts. Our mission is to inspire love and respect for wildlife while fostering a deep understanding of the importance of preserving our planet's diverse ecosystems. Join us on a journey of discovery, learning, and fun for the whole family!</p>
+        </div>
+        <div class="col-md-5">
+          <img src="images/home1.jpg" width="500px" height="500px" alt="">
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Beyond Our Borders</h2>
+          <p class="lead">At Ensign Zoo, we are deeply committed to wildlife conservation. Through strategic partnerships and participation in global breeding programs, we actively contribute to the preservation of endangered species. Your visit directly supports these critical efforts.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="images/home2.jpg" width="500px" height="500px" alt="">
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Plan Your Visit</span></h2>
+          <p class="lead mt-4"> - General Admission: $12</p>
+          <p class="lead"> - Children (under 12): $5</p>
+          <p class="lead"> - Seniors (65+): $6</p>
+          <p class="lead"> - Special Packages Available</p>
+        </div>
+        <div class="col-md-5">
+          <img src="images/home3.jpg" width="500px" height="500px" alt="">
+        </div>
+      </div>
+  
+    </div>
+
+  </main>
+
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="animals.html">2</a></li>
+      <li class="page-item"><a class="page-link" href="places.html">3</a></li>
+      <li class="page-item"><a class="page-link" href="about.html">4</a></li>
+      <li class="page-item"><a class="page-link" href="contact.html">5</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <footer class="bg-dark-subtle shadow-sm py-4">
+    <div class="container-fluid">
+      <div class="row">
         <div class="col">
-          <img class="img-fluid mx-auto d-block" src="images/logo.png" alt="logo">
-        </div>
-      </div>
-    </div>
-  </header>
-  <div class="container">
-    <div class="row align-items-md-stretch my-5">
-      <div class="col-md-6">
-        <div class="h-100 border rounded-3">
-          <img class="w-100 rounded-3" height="400px" style="object-fit: cover;" src="images/restaurant.jpg" alt="">
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="h-100 p-5 rounded-3">
-          <h1>Welcome</h1>
-          <p>Indulge in authentic Peruvian flavors at our restaurant. Immerse your senses in a culinary journey of rich traditions and exquisite tastes.</p>
-          <button class="btn" type="button">Learn More</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container-menu">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <h1>Menu</h1>
-          <a type="button" class="btn">See Menu</a>
-        </div>
-      </div>
-      <div class="row py-5">
-        <div class="col-md-6 bg-images p-0 position-relative" style="background-image: url('images/tequenos.jpg'); height: 400px;">
-          <p class="bg-dark fs-1 text-white text-center w-100 position-absolute" style="--bs-bg-opacity: .7; bottom: 50px;">Appetizers</p>
-        </div>
-        <div class="col-md-6 bg-images p-0 position-relative" style="background-image: url('images/ceviche.jpg'); height: 400px;">
-          <p class="bg-dark fs-1 text-white text-center w-100 position-absolute" style="--bs-bg-opacity: .7; bottom: 50px;">Entrees</p>
-        </div>
-        <div class="col-md-6 bg-images p-0 position-relative" style="background-image: url('images/alfajores.jpg'); height: 400px;">
-          <p class="bg-dark fs-1 text-white text-center w-100 position-absolute" style="--bs-bg-opacity: .7; bottom: 50px;">Desserts</p>
-        </div>
-        <div class="col-md-6 bg-images p-0 position-relative" style="background-image: url('images/incakola.webp'); height: 400px;">
-          <p class="bg-dark fs-1 text-white text-center w-100 position-absolute" style="--bs-bg-opacity: .7; bottom: 50px;">Beverages</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container mt-4">
-    <div class="row">
-      <div class="col">
-        <h1 class="text-center">Contact Us</h1>
-        <p>Phone: (999) 999-9999</p>
-        <p>Email: admin@delosandes.com</p>
-
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th scope="col">Address</th>
-              <th scope="col">City</th>
-              <th scope="col">Open Hours</th>
-              <th scope="col">Close Hours</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1535 S 135 E</td>
-              <td>Orem</td>
-              <td>8:00 AM</td>
-              <td>9:00 PM</td>
-            </tr>
-            <tr>
-              <td>123 S 22 W</td>
-              <td>SLC</td>
-              <td>10:00 AM</td>
-              <td>5:00 PM</td>
-            </tr>
-            <tr>
-              <td>23 S 44 E</td>
-              <td>Lehi</td>
-              <td>10:00 AM</td>
-              <td>10:00 PM</td>
-            </tr>
-            <tr>
-              <td>124 S 235 E</td>
-              <td>Provo</td>
-              <td>11:00 AM</td>
-              <td>8:00 PM</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-
-  <footer class="navbar-background">
-    <div class="container">
-      <div class="row">
-        <div class="col pt-2">
           <a class="navbar-brand text-center" href="">
-            <img src="Ensign Zoo.png" width="220px" class="align-middle mx-auto d-block" alt="My Website">
+            <img src="images/small-logo.png" width="100px" class="align-middle mx-auto d-block" alt="My Website">
           </a>
-          <p class="text-center">&copy 2023 | Group 2 - CS 220</p>
+          <p class="text-center">&copy <span id="currentYear"></span> Ensign Zoo | Group 1 - CS 220</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col social text-center ">
+          <a class="social-icon" target="_blank" href="https://www.facebook.com"><img class="icon" src="https://cdn.glitch.com/afcce994-9fbc-4db6-87d7-9d15ca1d4e4f%2Ffacebook.png?v=1626498176485" alt="facebook" ></a>
+          <a class="social-icon" target="_blank" href="https://www.instagram.com"><img class="icon" src="https://cdn.glitch.com/afcce994-9fbc-4db6-87d7-9d15ca1d4e4f%2Finstagram.png?v=1626498174895" alt="instagram" ></a>
+          <a class="social-icon" target="_blank" href="https://github.com"><img class="icon" src="https://cdn.glitch.com/afcce994-9fbc-4db6-87d7-9d15ca1d4e4f%2Fgithub.png?v=1626498178126" alt="github"></a>
         </div>
       </div>
     </div>
   </footer>
 
+  <script src="script/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
